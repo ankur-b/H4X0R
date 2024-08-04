@@ -13,6 +13,7 @@
 		92C8E2852C5FB20800759FD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C8E2842C5FB20800759FD6 /* Preview Assets.xcassets */; };
 		92C8E28D2C5FB58700759FD6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E28C2C5FB58700759FD6 /* NetworkManager.swift */; };
 		92C8E28F2C5FB70A00759FD6 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E28E2C5FB70A00759FD6 /* PostData.swift */; };
+		92C8E2922C5FBD4200759FD6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E2912C5FBD4200759FD6 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		92C8E2842C5FB20800759FD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92C8E28C2C5FB58700759FD6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		92C8E28E2C5FB70A00759FD6 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		92C8E2912C5FBD4200759FD6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			children = (
 				92C8E28B2C5FB54F00759FD6 /* Models */,
 				92C8E27D2C5FB20700759FD6 /* H4X0RApp.swift */,
-				92C8E27F2C5FB20700759FD6 /* ContentView.swift */,
+				92C8E2902C5FBD2100759FD6 /* View */,
 				92C8E2812C5FB20800759FD6 /* Assets.xcassets */,
 				92C8E2832C5FB20800759FD6 /* Preview Content */,
 			);
@@ -79,6 +81,15 @@
 				92C8E28E2C5FB70A00759FD6 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		92C8E2902C5FBD2100759FD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92C8E27F2C5FB20700759FD6 /* ContentView.swift */,
+				92C8E2912C5FBD4200759FD6 /* DetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 				92C8E28D2C5FB58700759FD6 /* NetworkManager.swift in Sources */,
 				92C8E28F2C5FB70A00759FD6 /* PostData.swift in Sources */,
 				92C8E2802C5FB20700759FD6 /* ContentView.swift in Sources */,
+				92C8E2922C5FBD4200759FD6 /* DetailView.swift in Sources */,
 				92C8E27E2C5FB20700759FD6 /* H4X0RApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
